@@ -1,0 +1,13 @@
+prefix=/Users/soumith/Desktop/llm-tutorials/crewai/venv
+exec_prefix=/Users/soumith/Desktop/llm-tutorials/crewai/venv
+libdir=/Users/soumith/Desktop/llm-tutorials/crewai/venv/lib
+sharedlibdir=/Users/soumith/Desktop/llm-tutorials/crewai/venv/lib
+includedir=/Users/soumith/Desktop/llm-tutorials/crewai/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
